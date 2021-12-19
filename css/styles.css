@@ -8,3 +8,22 @@
   background: linear-gradient(227deg, rgba(220, 92, 124, 1) 0%, rgba(218, 65, 103, 1) 100%)!important;
   color: white!important;
 }
+
+.white {
+  color: white !important;            
+  }
+  
+  .bg-blue {
+      background: #242555 !important;            
+  }
+  
+  .bg-pink {
+      background: #E103FE !important;            
+  }
+  .active{
+      background: #E103FE !important;      
+  }
+
+  .bg-green{
+    background: #02DF8C !important;    
+  }

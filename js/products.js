@@ -1,3 +1,6 @@
+var Usrdata = document.querySelector('.container');
+
+
 const products = [
   {
     ProductId: 1,
@@ -57,4 +60,35 @@ const products = [
   },
 ];
 
+document.getElementById('products').innerHTML = products.map(user => 
+  `
 
+  <div class="card m-3 style="max-width: 540px;" >
+  <div class="row g-0">
+
+  <div class="col-md-3">
+                <img src="${user.image}" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">${user.name}</h5>
+                  <p class="card-text">${user.description}</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card-body">
+                  <h5 class="card-title">${user.price}</h5>
+                  <p class="card-text text-success">${user.status} </p>
+
+                  <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-primary bg-blue">Details </button>
+                  <button type="button" class="btn btn-primary bg-pink">Delete</button>
+                </div>
+
+                </div>
+              </div>
+              </div>
+
+</div>`
+).join('')
