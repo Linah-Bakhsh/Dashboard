@@ -53,18 +53,19 @@ data: {
         
         
         data: [1200, 1990, 3000, 3400, 3400, 3100],
-        backgroundColor: [
-            'rgba(225, 3, 254, 0.4)',
-            'rgba(37, 38, 85, 0.4)',
-            'rgba(2, 223, 140, 0.4)',
-            'rgba(225, 3, 254, 0.4)',
-            'rgba(37, 38, 85, 0.4)',
-            'rgba(2, 223, 140, 0.4)'
-        ],
-       
-        borderWidth: 1
-    }]
-},
+        label:'men',
+        backgroundColor: 
+            'rgba(225, 3, 254, 0.4)'
+           
+        , 
+
+    }, {data: [1200, 3422, 3000, 1990, 5633, 1990],
+    label:'women',
+    backgroundColor: 'rgba(37, 38, 85, 0.4)'
+     }
+    ],
+    
+    },
     options: {
         scales: {
             y: {
