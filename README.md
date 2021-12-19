@@ -30,7 +30,7 @@ Simple responsive front-end dashboard. This dashboard uses the Bootstrap styles 
 - Use map() Js for mapping products array list int card that displays on the Products page.
 - Use Tidio integrations to add chatbot in dashboard website.
 
-### The Dashboard  Demo
+### The Dashboard  Demo f
 You can visit Dashboard website [link here](https://linah-bakhsh.github.io/Dashboard/)
 
 ## Future Features:
