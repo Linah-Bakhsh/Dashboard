@@ -1,4 +1,4 @@
-# <img src="img/favicon.ico" width="50px"> Dashboard
+# <img src="img/logo.svg" width="50px">  Dashboard
 
 
 ## Introduction
@@ -19,18 +19,18 @@ Simple responsive front-end dashboard. This dashboard uses the Bootstrap styles 
 <img src="img/screen1.png">
 
 - Products Page
-<img src="img/screen2.jpg">
+<img src="img/screen2.png">
 
 
 
-## Project Requirements
+## Project Features
 - Design Responsive Dashboard by Bootstrap
 - Use Fontawesome library to add icons.
 - Use Chart JavaScript library to design the Reports'chart
 - Use map() Js for mapping products array list int card that displays on the Products page.
 - Use Tidio integrations to add chatbot in dashboard website.
 
-### The Dashboard  Demo f
+### The Dashboard  Demo 
 You can visit Dashboard website [link here](https://linah-bakhsh.github.io/Dashboard/)
 
 ## Future Features:
